@@ -1,0 +1,631 @@
+2014/02/03 18:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/site/login
+---
+2014/02/04 11:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www/index.php".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('www/index.php')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/www/index.php
+---
+2014/02/04 11:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/02/04 11:12:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/02/04 16:43:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/site/login
+---
+2014/02/04 16:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/site/index
+---
+2014/02/04 17:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/
+---
+2014/02/04 23:01:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/index.php
+---
+2014/02/04 23:01:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "info.php".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('info.php')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/info.php
+---
+2014/02/04 23:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info.php".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('info.php')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info.php')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info.php')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/info.php
+---
+2014/02/04 23:01:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info.php".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('info.php')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info.php')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info.php')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/info.php
+---
+2014/02/04 23:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info.php".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('info.php')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info.php')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info.php')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/info.php
+---
+2014/02/04 23:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('info')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/info
+---
+2014/02/04 23:04:20 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "asdf".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('asdf', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('asdf', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionInfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/info
+---
+2014/02/04 23:05:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('info')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/info
+---
+2014/02/04 23:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "info".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('info')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('info')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/info')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/info
+---
+2014/02/04 23:06:02 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "asdf".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('asdf', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('asdf', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:07:38 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "asdf".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('asdf', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('asdf', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:07:40 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "asdf".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('asdf', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('asdf', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:08:12 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "asdf".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('asdf', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('asdf', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:08:13 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "asdf".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('asdf', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('asdf', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:10:32 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "info".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('info', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:10:34 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "info".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('info', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:11:01 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "info".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('info', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:12:15 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "info".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('info', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('info', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:12:41 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:12:43 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:16:56 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:16:59 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:17:00 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:18:27 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:18:29 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:19:19 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:19:21 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "phpinfo".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('phpinfo', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('phpinfo', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:20:09 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "test".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('test', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('test', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:20:11 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "test".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('test', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('test', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:20:34 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "TestController".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('TestController', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('TestController', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:24:19 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "TestController".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('TestController', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('TestController', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:24:20 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "TestController".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('TestController', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('TestController', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:24:42 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "TestController".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('TestController', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('TestController', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/04 23:24:45 [error] [exception.CException] exception 'CException' with message 'TestController cannot find the requested view "TestController".' in K:\home\yiisite\www\framework\web\CController.php:878
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(782): CController->renderPartial('TestController', Array, true)
+#1 K:\home\yiisite\www\protected\controllers\TestController.php(5): CController->render('TestController', Array)
+#2 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#3 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 K:\home\yiisite\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 K:\home\yiisite\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo')
+#7 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo')
+#8 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 K:\home\yiisite\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/phpinfo
+---
+2014/02/05 00:24:47 [error] [php] print_r() expects at least 1 parameter, 0 given (K:\home\yiisite\www\protected\views\test\phpinfo.php:4)
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CBaseController.php(95): TestController->renderInternal()
+#1 K:\home\yiisite\www\framework\web\CController.php(869): TestController->renderFile()
+#2 K:\home\yiisite\www\framework\web\CController.php(782): TestController->renderPartial()
+#3 K:\home\yiisite\www\protected\controllers\TestController.php(11): TestController->render()
+#4 K:\home\yiisite\www\framework\web\actions\CInlineAction.php(49): TestController->actionPhpinfo()
+#5 K:\home\yiisite\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 K:\home\yiisite\www\framework\web\CController.php(286): TestController->runAction()
+#7 K:\home\yiisite\www\framework\web\CController.php(265): TestController->runActionWithFilters()
+#8 K:\home\yiisite\www\framework\web\CWebApplication.php(282): TestController->run()
+#9 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 K:\home\yiisite\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/phpinfo?modules=1
+in K:\home\yiisite\www\protected\views\test\phpinfo.php (4)
+in K:\home\yiisite\www\protected\controllers\TestController.php (11)
+in K:\home\yiisite\www\index.php (13)
+2014/02/05 14:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/index.php
+---
+2014/02/05 14:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('phpinfo')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpinfo
+---
+2014/02/05 14:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo.php".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('phpinfo.php')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpinfo.php
+---
+2014/02/05 14:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "phpinfo.php".' in K:\home\yiisite\www\framework\web\CController.php:483
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CController.php(270): CController->missingAction('phpinfo.php')
+#1 K:\home\yiisite\www\framework\web\CWebApplication.php(282): CController->run('phpinfo.php')
+#2 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('test/phpinfo.ph...')
+#3 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 K:\home\yiisite\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/phpinfo.php
+---
+2014/02/05 14:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/test/phpinfo
+---
+2014/02/05 14:02:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('phpinfo')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpinfo
+---
+2014/02/05 14:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('phpinfo')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpinfo
+---
+2014/02/05 14:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('phpinfo')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpinfo
+---
+2014/02/05 14:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('phpinfo')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpinfo
+---
+2014/02/05 14:35:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in K:\home\yiisite\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 K:\home\yiisite\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 K:\home\yiisite\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 K:\home\yiisite\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://yiisite/phpinfo
+---
